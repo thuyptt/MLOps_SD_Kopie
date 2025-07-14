@@ -1,0 +1,7 @@
+[core]
+    remote = myremote
+['remote "storage"']
+    url = gdrive://16Zo0-1OTPsRgfaagt42wk710TOP5u-3L
+['remote "myremote"']
+    url = gs://mlops_sd
+    version_aware = true

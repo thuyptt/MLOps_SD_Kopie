@@ -1,0 +1,46 @@
+name: Code formatting
+
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  format:
+      runs-on: ${{ matrix.os }}
+      strategy:
+        fail-fast: false
+        matrix:
+          os: ["ubuntu-latest", "windows-latest", "macos-latest"]
+
+
+      steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+          cache: 'pip'
+          cache-dependency-path: setup.py
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements_tests.txt
+          pip install ruff mypy flake8 autopep8 pytest
+          pip list
+
+    #   - name: Lint and fix
+    #     run: |
+    #         autopep8 --in-place --aggressive --aggressive *.py
+    #         flake8 .
+      - name: Ruff check
+        run: ruff check .
+      - name: Ruff format
+        run: ruff format .
+      - name: Mypy check
+        run: mypy . --ignore-missing-imports
