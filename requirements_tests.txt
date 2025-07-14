@@ -1,0 +1,12 @@
+autopep8
+flake8
+mypy
+# os
+pytest
+ruff
+# unittest.mock
+# sys
+# tempfile
+
+pre-commit
+# out-file

@@ -1,0 +1,48 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Build trainer container image'
+  args: [
+    'build',
+    '.',
+    '-t',
+    'europe-west3-docker.pkg.dev/mlopssd/mlopssd-registry/trainer:latest',
+    '-f',
+    './dockerfiles/train_model.dockerfile'
+  ]
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Push trainer container image'
+  args: [
+    'push',
+    'europe-west3-docker.pkg.dev/mlopssd/mlopssd-registry/trainer:latest'
+  ]
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Build predict container image'
+  args: [
+    'build',
+    '.',
+    '-t',
+    'europe-west3-docker.pkg.dev/mlopssd/mlopssd-registry/predict:latest',
+    '-f',
+    './dockerfiles/predict_model.dockerfile'
+  ]
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Push predict container image'
+  args: [
+    'push',
+    'europe-west3-docker.pkg.dev/mlopssd/mlopssd-registry/predict:latest'
+  ]
+- name: 'gcr.io/cloud-builders/gcloud'
+  id: 'Deploy to Cloud Run'
+  args: [
+    'run',
+    'deploy',
+    'cv-imagegen-test',
+    '--image',
+    'europe-west3-docker.pkg.dev/mlopssd/mlopssd-registry/predict:latest',
+    '--region',
+    'europe-west1',
+    '--platform',
+    'managed',
+  ]
+options:
+  logging: CLOUD_LOGGING_ONLY
