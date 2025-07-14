@@ -1,0 +1,308 @@
+{
+  "builder_name": "imagefolder",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "imagefolder",
+  "dataset_size": 14730,
+  "description": "",
+  "download_checksums": {
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image1.jpg": {
+      "num_bytes": 73420,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image10.jpg": {
+      "num_bytes": 86516,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image11.jpg": {
+      "num_bytes": 66648,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image12.jpg": {
+      "num_bytes": 66065,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image13.jpg": {
+      "num_bytes": 95898,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image14.jpg": {
+      "num_bytes": 127606,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image15.jpg": {
+      "num_bytes": 69005,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image16.jpg": {
+      "num_bytes": 86022,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image17.jpg": {
+      "num_bytes": 77710,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image18.jpg": {
+      "num_bytes": 59924,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image19.jpg": {
+      "num_bytes": 93313,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image2.jpg": {
+      "num_bytes": 91770,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image20.jpg": {
+      "num_bytes": 75836,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image21.jpg": {
+      "num_bytes": 71632,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image22.jpg": {
+      "num_bytes": 68254,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image23.jpg": {
+      "num_bytes": 64941,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image24.jpg": {
+      "num_bytes": 71776,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image25.jpg": {
+      "num_bytes": 70352,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image26.jpg": {
+      "num_bytes": 96932,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image27.jpg": {
+      "num_bytes": 79917,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image28.jpg": {
+      "num_bytes": 72583,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image29.jpg": {
+      "num_bytes": 84464,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image3.jpg": {
+      "num_bytes": 88813,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image30.jpg": {
+      "num_bytes": 77745,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image31.jpg": {
+      "num_bytes": 67045,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image32.jpg": {
+      "num_bytes": 69974,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image33.jpg": {
+      "num_bytes": 110939,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image34.jpg": {
+      "num_bytes": 101926,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image35.jpg": {
+      "num_bytes": 66115,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image36.jpg": {
+      "num_bytes": 75644,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image37.jpg": {
+      "num_bytes": 78319,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image38.jpg": {
+      "num_bytes": 77190,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image39.jpg": {
+      "num_bytes": 62325,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image4.jpg": {
+      "num_bytes": 58734,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image40.jpg": {
+      "num_bytes": 88921,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image41.jpg": {
+      "num_bytes": 66800,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image42.jpg": {
+      "num_bytes": 96312,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image43.jpg": {
+      "num_bytes": 75319,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image44.jpg": {
+      "num_bytes": 64056,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image45.jpg": {
+      "num_bytes": 64117,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image46.jpg": {
+      "num_bytes": 73831,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image47.jpg": {
+      "num_bytes": 82448,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image48.jpg": {
+      "num_bytes": 87525,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image49.jpg": {
+      "num_bytes": 86079,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image5.jpg": {
+      "num_bytes": 69145,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image50.jpg": {
+      "num_bytes": 64190,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image51.jpg": {
+      "num_bytes": 81897,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image52.jpg": {
+      "num_bytes": 95500,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image53.jpg": {
+      "num_bytes": 62397,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image54.jpg": {
+      "num_bytes": 57996,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image55.jpg": {
+      "num_bytes": 67876,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image56.jpg": {
+      "num_bytes": 103708,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image57.jpg": {
+      "num_bytes": 106497,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image58.jpg": {
+      "num_bytes": 59963,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image59.jpg": {
+      "num_bytes": 66607,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image6.jpg": {
+      "num_bytes": 72211,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image60.jpg": {
+      "num_bytes": 67874,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image61.jpg": {
+      "num_bytes": 74948,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image62.jpg": {
+      "num_bytes": 73483,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image63.jpg": {
+      "num_bytes": 83140,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image64.jpg": {
+      "num_bytes": 73515,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image65.jpg": {
+      "num_bytes": 92168,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image66.jpg": {
+      "num_bytes": 82782,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image7.jpg": {
+      "num_bytes": 65714,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image8.jpg": {
+      "num_bytes": 73202,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/image9.jpg": {
+      "num_bytes": 90970,
+      "checksum": null
+    },
+    "F:/MLOps/MLOps_SD/Dataset/raw/train/metadata.jsonl": {
+      "num_bytes": 13542,
+      "checksum": null
+    }
+  },
+  "download_size": 5170086,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 5184816,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 14730,
+      "num_examples": 66,
+      "dataset_name": "imagefolder"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
