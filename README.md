@@ -1,4 +1,4 @@
-⚠️ Hinweis zur Datenverfügbarkeit
+⚠️ Hinweis zur Anonymisierung
 
 Dieses Repository basiert auf einem Projekt, das im Rahmen des Machine Learning Operations Project im Sommersemester SS2024 durchgeführt wurde zur automatischen Generierung von professionellen Bewerbungsbildern aus hochgeladenen Nutzerfotos durch Nutzung der Text-/Bild-zu-Bild-Funktionalität von Stable Diffusion Modellen. Aus datenschutzrechtlichen Gründen wurden alle personenbezogenen Daten und sensible Informationen aus diesem Repository entfernt.
 
@@ -10,7 +10,7 @@ Dieses Repository dient der Veranschaulichung des technischen Vorgehens (z. B.
 # MLOPS-Project 2024 - MLOps_SD
 
 ## Project Members, Mattermost Names and Campus Mail
-- **Student A **
+- **Student A**
 - **Student B**
 - **Student C**
 - **Thi Thuy Pham** 
